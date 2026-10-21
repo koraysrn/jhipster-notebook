@@ -1,0 +1,28 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "jhipsterNotebook",
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "creationTimestamp": 1703246531719,
+    "databaseType": "sql",
+    "defaultCommand": "app",
+    "devDatabaseType": "postgresql",
+    "enableTranslation": true,
+    "entities": ["Region", "Country", "Location", "Department", "Task", "Employee", "Job", "JobHistory"],
+    "jhipsterVersion": "9.4.0",
+    "jwtSecretKey": "MmZhZTQxMzMxMTc3NWQ3MDhjMzczNmU4MGVmMGZjOWRmMjU1YmQwYTQ3MWI2N2ViMmUzZTNhNzlkNWExYWFmZjYxOTMyZDYxMTMzNWZjMjkxZTU5OTA5MzU5NTI5OTE5Y2EyYjBhOWNiM2ViMjY2YjUwMGZhNDQzZGVjZTZkNGU=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1792617312000,
+    "nativeLanguage": "en",
+    "packageName": "com.notebook.jhipster",
+    "prodDatabaseType": "postgresql",
+    "promptValues": {
+      "nativeLanguage": "en"
+    },
+    "withAdminUi": true
+  }
+}

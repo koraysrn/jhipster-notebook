@@ -1,0 +1,19 @@
+application {
+  config {
+    applicationType monolith
+    baseName jhipsterNotebook
+    packageName com.notebook.jhipster
+    authenticationType jwt
+    buildTool maven
+    databaseType sql
+    devDatabaseType postgresql
+    prodDatabaseType postgresql
+    cacheProvider no
+    clientFramework react
+    clientTheme none
+    enableTranslation true
+    nativeLanguage en
+    languages [en]
+    withAdminUi true
+  }
+}
